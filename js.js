@@ -79,7 +79,7 @@ slider2.onmousewheel = function (event) {
                 console.log(x);
             img[x].style.background='black';
             }
-            else if (x=(img.length-1)) {
+            else if (x==(img.length-1)) {
                     img[x].style.background='none';
                     x=0;
                 console.log(x);
