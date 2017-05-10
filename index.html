@@ -6,12 +6,50 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<!--task3-->
+<!--Задание 1. Создайте блок. Сделайте так, чтобы при прокрутке колеса-->
+<!--мыши над ним, блок менял цвет.-->
+<!--Задание 2. Создайте изображение. Добавьте возможность-->
+<!--масштабирования изображения при прокрутке колеса мыши.-->
+<!--Задание 3. Создайте вертикальный слайдер, в котором элементы-->
+<!--прокручиваются с помощью колеса мыши. Учтите граничные условия.-->
+<!--Задание 4. Создайте блок и разместите в нем изображения одинакового-->
+<!--размера. При прокрутке колеса мыши над блоком «активируйте» по-->
+<!--очереди изображения по кругу. Т.е. при прокрутке колеса вокруг первого-->
+<!--элемента возникает граница. При дальнейшей прокрутке у первого блока-->
+<!--граница исчезает и появляется у второго блока.-->
+<!--task3.4-->
+<div id="images">
+    <img src="img/mini1.png" alt="" class="image">
+    <img src="img/mini2.png" alt="" class="image">
+    <img src="img/mini3.png" alt="" class="image">
+    <img src="img/mini4.png" alt="" class="image">
+    <img src="img/mini5.png" alt="" class="image">
+    <img src="img/mini6.png" alt="" class="image">
+</div>
+<!--task3.3-->
+<div class="slider-box">
+    <div class="slider">
+        <img src="img/mini1.png" alt="" class="image">
+        <img src="img/mini2.png" alt="" class="image">
+        <img src="img/mini3.png" alt="" class="image">
+    </div>
+</div>
+<!--task3.1-2-->
+<div class="mousemoving"></div>
+
+
+<!--task2-->
+<!--выровнять текст вертикально. выполнить задание для нескольких одинаковых блоков с одинаковыми классами-->
 <div class="valight-wrapper">
     <p class="valight">Hello world!</p>
 </div>
 <div class="valight-wrapper">
     <p class="valight">Hell hello hello world!</p>
 </div>
+
+<!--task1-->
+<!--поставить отображение разных рисунков для разных размеров окон-->
 <picture>
     <source media="(min-width: 650px)" srcset="img/mini6.png">
     <source media="(min-width: 465px)" srcset="img/mini5.png">
